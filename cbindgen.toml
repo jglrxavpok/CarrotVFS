@@ -1,0 +1,14 @@
+language = "C++"
+
+pragma_once = true
+namespaces = ["Carrot", "IO", "VFS"]
+using_namespaces = []
+sys_includes = []
+no_includes = true
+after_includes = ""
+includes = ["ffi_forwards.h"]
+
+[export]
+exclude = [
+    "Box",
+]
